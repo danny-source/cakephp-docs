@@ -12,8 +12,14 @@ which is used to interact with a given table. If you do not need to customize
 the behavior of a given table CakePHP will generate a Table instance for you to
 use.
 
+表物件提供對儲存在特定表中的實體集合的訪問。 
+應用程式中的每個表都應該有一個關聯的表類，用於與給定表互動。 
+如果您不需要自定義給定表的行為，CakePHP將生成一個表例項供您使用。
+
 Before trying to use Table objects and the ORM, you should ensure that you have
 configured your :ref:`database connection <database-configuration>`.
+
+在嘗試使用表物件和ORM之前，您應該確保您有配置了你的 ref:`database connection <database-configuration>`.
 
 Basic Usage
 ===========
